@@ -161,6 +161,12 @@ h1,h2{font-family:'Fraunces',serif; margin:0 0 8px;}
   color:var(--gold);
   margin-bottom:6px;
 }
+.hero-emblem-img{
+  display:inline-block;
+  height:72px;
+  width:auto;
+  margin-bottom:10px;
+}
 .hero h1{font-size:clamp(1.6rem,4vw,2.2rem);}
 .hero .tagline{max-width:560px; margin:8px auto 0;}
 

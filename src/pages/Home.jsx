@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="home">
       <div className="hero">
-        <span className="hero-emblem">♜</span>
-        <h1>Sardes Satranç'a Hoş Geldin{profile?.full_name ? `, ${profile.full_name}` : ''}</h1>
+        <img src="/logo.png" alt="Sardes Satranç logosu" className="hero-emblem-img" />
+        <h1>Sardes Satranç Kulübü'ne Hoş Geldin{profile?.full_name ? `, ${profile.full_name}` : ''}</h1>
         <p className="tagline">Kulübün satranç platformu — yapay zekaya karşı oyna, puzzle çöz, üyelerle karşılaş, gelişimini takip et.</p>
       </div>
       <div className="home-grid">

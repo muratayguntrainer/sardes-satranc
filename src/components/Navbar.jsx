@@ -14,7 +14,7 @@ export default function Navbar() {
     <nav className="navbar">
       <Link to="/" className="brand">
         <img src="/logo.png" alt="Sardes Satranç logosu" className="brand-logo" />
-        Sardes Satranç
+        Sardes Satranç Kulübü
       </Link>
       <div className="nav-links">
         {user && (
