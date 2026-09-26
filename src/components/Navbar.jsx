@@ -12,7 +12,10 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="brand">♜ Sardes Satranç</Link>
+      <Link to="/" className="brand">
+        <img src="/logo.png" alt="Sardes Satranç logosu" className="brand-logo" />
+        Sardes Satranç
+      </Link>
       <div className="nav-links">
         {user && (
           <>
